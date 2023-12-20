@@ -3,17 +3,30 @@
   <head>
     <title>Home | Climate Health Education Initiative</title>
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-    <link rel = "stylesheet" href = "/css/library.css">
+    <link rel = "stylesheet" href = "/css/style.css">
   </head>
   <body>
     <header>
       <img src = 'img/logo.webp'>
-      <a>HOME</a>
-      <a>ABOUT US</a>
-      <a>OUR PROJECTS</a>
-      <a>GET INVOLVED</a>
-      <a>BLOG</a>
-      <a>MORE</a>
+      <button class="blend-in-button">HOME</button>
+      <button class="blend-in-button">ABOUT US</button>
+      <div class="dropdown">
+        <button class="blend-in-button" id="dropdownButton">OUR PROJECTS</button>
+        <div class="dropdown-content">
+            <a href="#">EVENTS</a>
+            <a href="#">AFTERSCHOOL PROGRAMS</a>
+        </div>
+      </div>
+      <button class="blend-in-button">GET INVOLVED</button>
+      <button class="blend-in-button">BLOG</button>
+      <div class="dropdown">
+        <button class="blend-in-button" id="dropdownButton">MORE</button>
+        <div class="dropdown-content">
+            <a href="#">CONTACT US</a>
+            <a href="#">SUPPORT US</a>
+        </div>
+      </div>
     </header>
+    <script src = "/js/index.js"></script>
   </body>
 </html>
