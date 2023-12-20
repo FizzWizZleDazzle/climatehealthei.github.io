@@ -39,3 +39,41 @@ header {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+/* styles.css */
+
+body {
+    margin: 0;
+}
+
+.layer-one {
+    background-color: #3498db; /* Set the background color of the first layer */
+    height: 100vh; /* Full viewport height */
+}
+
+.layer-two {
+    position: relative;
+    background-color: #2ecc71; /* Set the background color of the second layer */
+    height: 100vh; /* Full viewport height */
+}
+
+.off-centered-box {
+    position: absolute;
+    left: 50%; /* Center horizontally */
+    top: 50%; /* Center vertically */
+    transform: translate(-50%, -50%); /* Correct for half the width and height */
+    width: 60%; /* Adjust the width of the box */
+    background-color: #e74c3c; /* Set the background color of the off-centered box */
+    padding: 20px;
+    border-radius: 10px; /* Add rounded corners for style */
+}
+
+.text-container {
+    text-align: center;
+    color: #ffffff; /* Set the text color */
+}
+
+.text-container h2 {
+    margin-bottom: 10px;
+}
+
