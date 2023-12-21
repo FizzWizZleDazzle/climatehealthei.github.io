@@ -20,7 +20,7 @@ header {
 
 .blend-in-button:hover,
 .dropdown-content a:hover {
-    background-color: rgb(6,63,13);
+    background-color: rgb(12, 117, 24);
 }
 
 .dropdown {
@@ -41,8 +41,6 @@ header {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-/* styles.css */
 
 body {
     margin: 0;
